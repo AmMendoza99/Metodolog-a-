@@ -9,12 +9,12 @@ Proceso descuento_pago
 	Escribir "Fecha: 04/11/22";
 	Escribir "*****************************************";
 	Escribir "Ingrese el pago: ";
-	definir pago como real;
+	definir pago Como Entero;
 	leer pago;
 	pago<-1000;
 	Escribir "Ingerese el descuento: ";
-	Definir des Como Real;
+	Definir des Como Entero;
 	Leer des;
-	pago<-des*0.25;
+	pago<-des/25;
 	Escribir "Su pago fnal con descuento es de: ",pago,des;
 FinProceso
